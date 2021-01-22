@@ -13,7 +13,7 @@ func handler(w http.ResponseWriter, r *http.Request){
   if err != nil {
     panic(err) 
   }
-  fmt.Fprintln(w, "hostname:",name)
+  fmt.Fprintln(w, "Hostname:",name)
 }
 func main() {
   fmt.Fprintln(os.Stdout, "Starting GoApp Server......")
